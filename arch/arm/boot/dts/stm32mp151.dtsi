@@ -2155,10 +2155,10 @@
 		};
 	};
 
-    dummy_device {
-        compatible = "st,dummy";
+    gpio_expansion {
+        compatible = "st,gpioexpansion";
         status = "okay";
-        greenled-gpios = <&gpiob 10 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
+        gpioexpansion-gpios = <&gpiob 10 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
     };
 
 
