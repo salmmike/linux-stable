@@ -2158,7 +2158,7 @@
     dummy_device {
         compatible = "st,dummy";
         status = "okay";
-        greenled-gpios = <&gpioa 14 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
+        greenled-gpios = <&gpiob 10 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
     };
 
 
